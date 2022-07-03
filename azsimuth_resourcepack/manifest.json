@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Azsimuth's Matoi Ryuko Addon",
+		"description": "Azsimuth's Addon Resource Pack",
+		"uuid": "ee3b3b80-bb45-d36f-c81c-5eb8a2b38281",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Azsimuth"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.8"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Azsimuth's Addon",
+			"type": "resources",
+			"uuid": "096db822-5047-0468-e122-7e2709321530",
+			"version": [1, 0, 0]
+		}
+	]
+}

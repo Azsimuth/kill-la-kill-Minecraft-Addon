@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "azsimuth:matoi_ryuko",
+			"materials": {
+				"default": "entity"
+			},
+			"textures": {
+				"default": "textures/entity/matoi_ryuko"
+			},
+			"geometry": {
+				"default": "geometry.matoi_ryuko"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#1a0017",
+				"overlay_color": "#ff006a"
+			},
+			"animations": {
+				"setup": "animation.pig.setup",
+				"walk": "animation.matoi_ryuko.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.pig.baby_transform",
+				"attack": "animation.matoi_ryuko.attack"
+			  },
+			  "scripts": {
+				"animate": [
+				  "setup",
+				  { "walk": "query.modified_move_speed" },
+				  "look_at_target",
+				  { "baby_transform": "query.is_baby" },
+				  "walk_controller", "attack_controller"
+				]
+	}}
+}}

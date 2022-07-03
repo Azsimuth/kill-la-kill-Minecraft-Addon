@@ -1,0 +1,36 @@
+{
+  "format_version": "1.16.100",
+  "azsimuth:lemons_ore": {
+    "textures": {
+      "up": "azsimuth_lemons_ore_up",
+      "down": "azsimuth_lemons_ore_down",
+      "south": "azsimuth_lemons_ore_south",
+      "north": "azsimuth_lemons_ore_north",
+      "west": "azsimuth_lemons_ore_west",
+      "east": "azsimuth_lemons_ore_east"
+    },
+    "sound": "stone"
+  },
+  "azsimuth:lemons_block": {
+    "textures": {
+      "up": "azsimuth_lemons_block_up",
+      "down": "azsimuth_lemons_block_down",
+      "south": "azsimuth_lemons_block_south",
+      "north": "azsimuth_lemons_block_north",
+      "west": "azsimuth_lemons_block_west",
+      "east": "azsimuth_lemons_block_east"
+    },
+    "sound": "metal"
+  },
+  "azsimuth:lemonleaves": {
+    "textures": {
+      "up": "azsimuth_lemonleaves_up",
+      "down": "azsimuth_lemonleaves_down",
+      "south": "azsimuth_lemonleaves_south",
+      "north": "azsimuth_lemonleaves_north",
+      "west": "azsimuth_lemonleaves_west",
+      "east": "azsimuth_lemonleaves_east"
+    },
+    "sound": "grass"
+  }
+}

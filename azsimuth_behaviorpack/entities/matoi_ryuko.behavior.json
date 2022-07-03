@@ -1,0 +1,291 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity":
+	 {
+		"description": {
+			"identifier": "azsimuth:matoi_ryuko",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": true
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:movement": {
+				"value": 0.3
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:navigation.walk": {
+				"can_open_doors": true,
+				"avoid_water": true
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 3,
+				"speed_multiplier": 0.5
+			},
+			"minecraft:health": {
+				"value": 300,
+				"max": 300
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 2
+					}
+				]
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 4
+			},
+			"job_specific_goals": {
+				"minecraft:behavior.sleep": {}
+			},
+			"minecraft:behavior.sleep": {
+				"priority": 9,
+				"goal_radius": 1.5,
+				"speed_multiplier": 0.6,
+				"sleep_collider_height": 0.3,
+				"sleep_collider_width": 1.0,
+				"sleep_y_offset": 0.6,
+				"timeout_cooldown": 10.0
+			},
+			"minecraft:behavior.tempt": {
+				"priority": 3,
+				"speed_multiplier": 0.75,
+				"items": [
+				  "azsimuth:lemon"
+				]
+			},
+			"minecraft:tameable": {
+				"probability": 100,
+				"tame_items": "azsimuth:lemon",
+				"tame_event": {
+				  "event": "minecraft:on_tame",
+				  "target": "self"
+				}
+		  },
+		  "minecraft:breathable": {
+			"total_supply": 15,
+			"suffocate_time": 0
+		  },
+		  "minecraft:on_target_acquired": {
+			"event": "minecraft:become_angry",
+			"target": "self"
+		  },
+		  "minecraft:can_climb": {
+		  },
+		 
+		  "minecraft:persistent": {
+		 },
+		 "minecraft:type_family": {
+			"family": [ "villager", "player", "mob" ]
+		 },
+		 "attack_cooldown": {
+			"minecraft:attack_cooldown": {
+			  "attack_cooldown_time": 120.0,
+			  "attack_cooldown_complete_event": {
+				"event": "attack_cooldown_complete_event",
+				"target": "self"
+			  }
+			}},
+			"attack_cooldown_complete_event": {
+				"remove": {
+				  "component_groups": [
+					"attack_cooldown"
+				  ]
+				}
+			  },
+			  "killed_enemy_event": {
+				"add": {
+				  "component_groups": [
+					"attack_cooldown"
+				  ]
+				}
+			  },
+			  "minecraft:behavior.hurt_by_target": {
+				"priority": 1,
+				"reselect_targets": true,
+				"entity_types": [
+				  {
+					"filters": {
+					  "all_of": [
+						{
+						  "test": "is_family",
+						  "subject": "other",
+						  "operator": "=",
+						  "value": "monster"
+						}
+					  ]
+					},
+					"max_dist": 35
+				  }
+				]
+			  },
+			  "minecraft:attack": {
+				"damage": 15
+			  },
+			  "minecraft:behavior.melee_attack": {
+				"priority": 1,
+				"speed_multiplier": 1.25,
+				"reach_multiplier": 1.5
+			  },
+			  "minecraft:knockback_resistance": {
+				"value": 0.5
+			  },
+				"minecraft:behavior.owner_hurt_by_target": {
+				  "priority": 1
+				},
+				"minecraft:behavior.owner_hurt_target": {
+				  "priority": 2
+				},
+			"minecraft:behavior.follow_owner": {
+				"priority": 4,
+				"speed_multiplier": 0.75,
+				"start_distance": 10,
+				"stop_distance": 2
+			  },
+			  "minecraft:healable":{
+				"filters": {"test": "has_damage", "value": "fatal"} ,
+				"force_use": false,
+				"items": [
+					{
+					"heal_amount": 20,
+					"item": "azsimuth:lemon"
+					}
+				]
+			},
+			  "minecraft:behavior.stay_while_sitting": {
+				"priority": 3
+			  },
+			  "minecraft:behavior.ocelot_sit_on_block": {
+				"priority": 7,
+				"speed_multiplier": 1.0
+			  },
+			  "minecraft:behavior.pet_sleep_with_owner": {
+				"priority": 2,
+				"speed_multiplier": 1.2,
+				"search_radius": 10,
+				"search_height": 10,
+				"goal_radius": 1.0
+			  },
+			  "minecraft:on_wake_with_owner": {
+				"event": "minecraft:pet_slept_with_owner",
+				"target": "self"
+			  },
+			  "minecraft:nameable": {
+			  },
+			  "minecraft:annotation.open_door":{
+			},
+			"minecraft:equip_item": {
+			},
+			"minecraft:navigation.swim":{
+				"avoid_damage_blocks": true,
+				"avoid_portals": false,
+				"avoid_sun": false,
+				"avoid_water": false,
+				"blocks_to_avoid": [],
+				"can_breach": false,
+				"can_break_doors": false,
+				"can_jump": true,
+				"can_open_doors": true,
+				"can_open_iron_doors": false,
+				"can_pass_doors": true,
+				"can_path_from_air": false,
+				"can_path_over_lava": false,
+				"can_path_over_water": false,
+				"can_sink": true,
+				"can_swim": false,
+				"can_walk": true,
+				"can_walk_in_lava": false,
+				"is_amphibious": false
+			},
+
+				"minecraft:on_tame": { 
+						"minecraft:behavior.follow_owner": {
+							"priority": 1,
+							"speed_multiplier": 1.0,
+							"start_distance": 30,
+							"stop_distance": 2
+						  }
+					},
+					"minecraft:behavior.nearest_attackable_target": {
+						"priority": 1,
+						"reselect_targets": true,
+						"must_see": true,
+						"entity_types": [
+						  {
+							"filters": {
+							  "any_of": [
+								{ "test" :  "is_family", "subject" : "other", "value" :  "monster"}
+							  ] 
+							},
+							"max_dist": 16
+						  },
+						  {
+							"filters": {
+							  "all_of": [
+								{
+								  "test": "is_family",
+								  "subject": "other",
+								  "value": "baby_turtle"
+								},
+								{
+								  "test": "in_water",
+								  "subject": "other",
+								  "operator": "!=",
+								  "value": true
+								}
+							  ]
+							},
+							"max_dist": 16
+						  },
+						  {
+							"filters": {
+							  "all_of": [
+								{
+								  "test": "is_family",
+								  "subject": "other",
+								  "value": "skeleton"
+								},
+								{
+								  "test": "is_underwater",
+								  "subject": "other",
+								  "operator": "!=",
+								  "value": true
+								}
+							  ]
+							},
+							"max_dist": 16
+						  }
+						  
+						]
+					  },
+					  "minecraft:combat_regeneration":{
+						"regeneration_duration": 20,
+						"apply_to_self": true,
+						"apply_to_family": true
+					},
+					"minecraft:boss":{
+						"hud_range": 55,
+						"name": "Matoi Ryuko",
+						"should_darken_sky": false
+					}
+						}
+							}
+						}
