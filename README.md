@@ -1,4 +1,4 @@
-# ryuko_mc_addon
+# Ryuko Matoi for Minecraft Bedrock Addon
 Ryuko Matoi for Minecraft Bedrock
 What is there to say?
 I was just bored in the summer, and thought i'd make this for funsies
