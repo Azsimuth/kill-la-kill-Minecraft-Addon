@@ -1,0 +1,22 @@
+{
+  "format_version": "1.17.3",
+  "minecraft:block": {
+    "description": {
+      "identifier": "azsimuth:lifefiberblock",
+      "is_experimental": false,
+      "register_to_creative_menu ": true
+    },
+    "components": {
+      "minecraft:block_light_emission": 0,
+      "minecraft:destroy_time": 3,
+      "minecraft:explosion_resistance": 30,
+      "minecraft:friction": 0.6,
+      "minecraft:loot":
+      "loot_tables/blocks/azsimuth_hardenedlifefibers.json",
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      }
+    }
+  }
+}
