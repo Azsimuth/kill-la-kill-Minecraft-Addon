@@ -35,4 +35,4 @@ SCISSOR BLADE
 
 ![My Image](crafting/craft_ryukosword.png)
 
-3 Strings, 3 Hardened Life Fiber Blocks, 1 Red Dye, 1 Netherite Sword
+3 Strings, 3 Hardened Life Fiber Blocks, 1 Red Dye, 1 Netherite Sword, 1 Nether Star
