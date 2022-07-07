@@ -36,3 +36,33 @@ SCISSOR BLADE
 ![My Image](crafting/craft_ryukosword.png)
 
 3 Strings, 3 Hardened Life Fiber Blocks, 1 Red Dye, 1 Netherite Sword, 1 Nether Star
+
+SCISSOR BLADE (NUI)
+
+![My Image](crafting/craft_nuisword.png)
+
+3 Strings, 3 Hardened Life Fiber Blocks, 1 Pink Dye, 1 Netherite Sword, 1 Nether Star
+
+SCREW
+
+![My Image](crafting/craft_screw.png)
+
+5 Iron Nuggets shaped like a T
+
+MERGED SCISSOR BLADES
+
+![My Image](crafting/craft_full_blades.png)
+
+Red Scissor Blade, Screw, Pink Scissor Blade
+
+SENKETSU
+
+![My Image](crafting/craft_senketsu_temp.png)
+
+4 Strings, Yellow Dye, Grey Dye, 2 Hardened Life Fiber Blocks, Hardened Life Fiber Chestplate
+
+SENKETSU SKIRT
+
+![My Image](crafting/craft_senketsu_skirt.png)
+
+4 Strings, Yellow Dye, Grey Dye, 2 Hardened Life Fiber Blocks, Hardened Life Fiber Leggings
