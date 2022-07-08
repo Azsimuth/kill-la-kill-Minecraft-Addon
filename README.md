@@ -4,7 +4,7 @@ Kill La Kill, and it's associated charachter belong to Trigger. All i have done 
 Please don't hurt me, i'm just a teen with no money, with a passion for doing things.
 
 
-Ryuko Matoi for Minecraft Bedrock
+# Ryuko Matoi for Minecraft Bedrock
 What is there to say?
 I was just bored in the summer, and thought i'd make this for funsies
 it's my first minecraft addon really, aside from a few experiments
