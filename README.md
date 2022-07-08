@@ -18,7 +18,7 @@ It's coming along slowly.
 i added life fiber blocks, and a way to spawn matoi in survival
 you need lotta strings for it.
 
-CRAFTING RECEPIES as of July 5th:
+# CRAFTING RECEPIES as of July 8th:
 LIFE FIBER BLOCK
 
 ![My Image](crafting/craft_lifefiberblock.png)
