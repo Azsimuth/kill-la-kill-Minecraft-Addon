@@ -1,6 +1,7 @@
 # Disclaimers:
 
 Kill La Kill, and it's associated charachter belong to Trigger. All i have done is make this addon. I am willing to take it down upon the request.
+Studio Trigger wasn't asked for permission for this project.
 Please don't hurt me, i'm just a teen with no money, with a passion for doing things.
 
 
