@@ -84,3 +84,21 @@ Red Scissor Blade, Screw, Pink Scissor Blade
 ![My Image](crafting/craft_bakuzan.png)
 
 3 Strings, 3 Hardened Life Fiber Blocks, 1 Blue Dye, 1 Diamond Sword, 1 Nether Star
+
+### Wheel
+
+![My Image](crafting/craft_ryuko_wheel.png)
+
+8 Black Wool, 1 Iron Block
+
+### Engine
+
+![My Image](crafting/craft_engine.png)
+
+4 Screws, 2 Slime Blocks, 2 Observers, 1 Stick Piston
+
+### Ryuko's Bike
+
+![My Image](crafting/craft_ryuko_bike.png)
+
+4 Hardened Life Fiber Blocks, 1 Saddle, 1 Engine, and 2 wheels
