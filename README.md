@@ -4,6 +4,15 @@ Kill La Kill, and it's associated charachter belong to Trigger. Studio Trigger w
 I am willing to take it down upon the request.
 Please don't hurt me, i'm just a teen with no money, with a passion for doing things.
 
+# Installation
+Change the .zip extension to .mcaddon
+Double click, to open with Minecraft Bedrock
+Chose the world you want to play in, and click the edit icon
+click on behaviour packs, and activate the addon.
+Click on Game
+Scroll down to Experiments
+Enable Holiday Creator Features
+Profit.
 
 # Ryuko Matoi for Minecraft Bedrock
 What is there to say?
