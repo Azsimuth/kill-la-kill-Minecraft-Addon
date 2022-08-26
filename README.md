@@ -4,7 +4,8 @@ Kill La Kill, and it's associated charachter belong to Trigger. Studio Trigger w
 I am willing to take it down upon the request.
 Please don't hurt me, i'm just a teen with no money, with a passion for doing things.
 
-# Installation
+# Download & Installation
+Download the latest release from https://github.com/Azsimuth/kill-la-kill-Minecraft-Addon/releases
 Change the .zip extension to .mcaddon
 Double click, to open with Minecraft Bedrock
 Chose the world you want to play in, and click the edit icon
