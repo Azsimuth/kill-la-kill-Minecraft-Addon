@@ -1,0 +1,52 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "azsimuth:craftmmergedblade"
+      },
+      "groups": [
+        "azsimuth"
+      ],
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "012",
+        "345",
+        "678"
+      ],
+      "key": {
+        "0": {
+          "item": "minecraft:string"
+        },
+        "1": {
+          "item": "minecraft:string"
+        },
+        "2": {
+          "item": "minecraft:string"
+        },
+        "3": {
+          "item": "azsimuth:scissor_blade"
+        },
+        "4": {
+          "item": "azsimuth:screw"
+        },
+        "5": {
+          "item": "azsimuth:scissor_blade_nui"
+        },
+        "6": {
+          "item": "minecraft:string"
+        },
+        "7": {
+          "item": "minecraft:string"
+        },
+        "8": {
+          "item": "minecraft:string"
+        }
+      },
+      "result": {
+        "item": "azsimuth:screwed_scissor_blade",
+        "count": 1
+      }
+    }
+  }

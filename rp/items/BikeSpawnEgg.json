@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "azsimuth:ryuko_bike_spawn_egg",
+      "category": "Items",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:icon": "azsimuth_screw",
+      "minecraft:creative_category": "Items"
+    }
+  }
+}

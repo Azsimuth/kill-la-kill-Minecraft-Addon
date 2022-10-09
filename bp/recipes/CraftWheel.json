@@ -1,0 +1,60 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "azsimuth:craft_wheels"
+      },
+      "groups": [
+        "azsimuth"
+      ],
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "012",
+        "345",
+        "678"
+      ],
+      "key": {
+        "0": {
+          "item": "minecraft:wool",
+          "data": 15
+        },
+        "1": {
+          "item": "minecraft:wool",
+          "data": 15
+        },
+        "2": {
+          "item": "minecraft:wool",
+          "data": 15
+        },
+        "3": {
+          "item": "minecraft:wool",
+          "data": 15
+        },
+        "4": {
+          "item": "minecraft:iron_block"
+        },
+        "5": {
+          "item": "minecraft:wool",
+          "data": 15
+        },
+        "6": {
+          "item": "minecraft:wool",
+          "data": 15
+        },
+        "7": {
+          "item": "minecraft:wool",
+          "data": 15
+        },
+        "8": {
+          "item": "minecraft:wool",
+          "data": 15
+        }
+      },
+      "result": {
+        "item": "azsimuth:wheel",
+        "count": 1
+      }
+    }
+  }

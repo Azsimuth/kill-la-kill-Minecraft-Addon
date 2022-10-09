@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "azsimuth:craftlegs"
+    },
+    "groups": [
+      "azsimuth"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "3 5",
+      "6 8"
+    ],
+    "key": {
+      "0": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "1": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "2": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "3": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "5": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "6": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "8": {
+        "item": "azsimuth:hardenedlifefibers"
+      }
+    },
+    "result": {
+      "item": "azsimuth:life_fiber_hard_leggings",
+      "count": 1
+    }
+  }
+}

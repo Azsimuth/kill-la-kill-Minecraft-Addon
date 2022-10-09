@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "azsimuth:craftbakuzan"
+    },
+    "groups": [
+      "azsimuth"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:string"
+      },
+      "1": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "2": {
+        "item": "minecraft:blue_dye"
+      },
+      "3": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "4": {
+        "item": "minecraft:nether_star"
+      },
+      "5": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "6": {
+        "item": "minecraft:string"
+      },
+      "7": {
+        "item": "minecraft:diamond_sword"
+      },
+      "8": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "azsimuth:bakuzan",
+      "count": 1
+    }
+  }
+}

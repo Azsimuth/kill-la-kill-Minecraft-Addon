@@ -1,0 +1,15 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "azsimuth:scissorblade",
+      "category": "Items",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:icon": "textures/items/ryuko_sword",
+      "minecraft:render_offsets": "apple",
+      "minecraft:creative_category": "Items"
+    }
+  }
+}

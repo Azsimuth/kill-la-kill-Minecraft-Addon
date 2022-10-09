@@ -1,0 +1,49 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "azsimuth:craftlifeliberchestplate"
+    },
+    "groups": [
+      "armor"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 2",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "2": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "3": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "4": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "5": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "6": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "7": {
+        "item": "azsimuth:hardenedlifefibers"
+      },
+      "8": {
+        "item": "azsimuth:hardenedlifefibers"
+      }
+    },
+    "result": {
+      "item": "azsimuth:life_fiber_hard_chestplate",
+      "count": 1
+    }
+  }
+}

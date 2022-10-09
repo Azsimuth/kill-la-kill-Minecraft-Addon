@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "azsimuth:lemons_ore_block_recipe"
+    },
+    "groups": [
+      "azsimuth"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "azsimuth:lemon"
+      },
+      "1": {
+        "item": "azsimuth:lemon"
+      },
+      "2": {
+        "item": "azsimuth:lemon"
+      },
+      "3": {
+        "item": "azsimuth:lemon"
+      },
+      "4": {
+        "item": "azsimuth:lemon"
+      },
+      "5": {
+        "item": "azsimuth:lemon"
+      },
+      "6": {
+        "item": "azsimuth:lemon"
+      },
+      "7": {
+        "item": "azsimuth:lemon"
+      },
+      "8": {
+        "item": "azsimuth:lemon"
+      }
+    },
+    "result": {
+      "item": "azsimuth:lemons_block",
+      "count": 1
+    }
+  }
+}

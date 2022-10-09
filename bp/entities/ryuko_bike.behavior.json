@@ -1,0 +1,146 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "azsimuth:ryuko_bike",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "bike", "vehicle", "matoi" ]
+      },
+      "minecraft:health": {
+          "value": 50,
+          "max": 50
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.5
+      },
+      "minecraft:input_ground_controlled": {
+      },
+      "minecraft:behavior.player_ride_tamed": {
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:breathable": {
+        "breathesAir": true,
+        "breathesWater": true
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 10.0
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:rideable":{
+        "controlling_seat": 0,
+        "crouching_skip_interact": true,
+        "family_types": [],
+        "interact_text":"",
+        "priority": 0,
+        "pull_in_entities": false,
+        "rider_can_interact": false,
+        "seat_count": 1,
+        "seats": [
+          {
+            "position": [ -0.08, 0.5, 0.0 ],
+            "min_rider_count": 0,
+            "max_rider_count": 1,
+      
+            "rotate_rider_by": -90,
+            "lock_rider_rotation": 90
+          },
+          {
+            "position": [ -0.08, 0.5, 0.0 ],
+            "min_rider_count": 2,
+            "max_rider_count": 2,
+      
+            "rotate_rider_by": "query.has_any_family('blaze', 'creeper', 'enderman', 'illager', 'magmacube', 'piglin', 'player', 'skeleton', 'slime', 'villager', 'wandering_trader', 'witch', 'zombie', 'zombie_pigman') ? -90 : 0",
+            "lock_rider_rotation": 90
+          },
+          {
+            "position": [ -0.08, 0.5, 0.0 ],
+            "min_rider_count": 2,
+            "max_rider_count": 2,
+            "rotate_rider_by": "query.has_any_family('blaze', 'creeper', 'enderman', 'illager', 'magmacube', 'piglin', 'player', 'skeleton', 'slime', 'villager', 'wandering_trader', 'witch', 'zombie', 'zombie_pigman') ? -90 : 0",
+            "lock_rider_rotation": 90
+          }
+        ]
+      },
+      "minecraft:is_saddled":{
+      },
+      "minecraft:behavior.controlled_by_player": {
+        "mount_speed_multiplier": "2",
+        "fractional_rotation": 0,
+        "fractional_rotation_limit": 0
+      }
+      }
+    },
+    "component_groups:": {
+      "minecraft:rideable": {
+        "seat_count": 1,
+      
+        "seats": [
+          {
+            "position": [ -0.08, 0.5, 0.0 ],
+            "min_rider_count": 0,
+            "max_rider_count": 1,
+      
+            "rotate_rider_by": 0,
+            "lock_rider_rotation": 90
+          },
+          {
+            "position": [ 0, 5, 0.0 ],
+            "min_rider_count": 2,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 90
+          },
+          {
+            "position": [ -0.08, 0.5, 0.0 ],
+            "min_rider_count": 2,
+            "max_rider_count": 2,
+            "rotate_rider_by": "query.has_any_family('blaze', 'creeper', 'enderman', 'illager', 'magmacube', 'piglin', 'player', 'skeleton', 'slime', 'villager', 'wandering_trader', 'witch', 'zombie', 'zombie_pigman') ? -90 : 0",
+            "lock_rider_rotation": 90
+          }
+        ]
+      }
+      }
+  }

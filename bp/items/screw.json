@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "azsimuth:screw",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "azsimuth_screw"
+			}
+		}
+	}
+}

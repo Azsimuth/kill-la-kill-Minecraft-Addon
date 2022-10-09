@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "azsimuth:ryuko_bike",
+			"materials": {
+				"default": "entity"
+			},
+			"textures": {
+				"default": "textures/entity/ryuko_bike/ryuko_bike"
+			},
+			"geometry": {
+				"default": "geometry.ryuko_bike"
+			},
+			"render_controllers": ["controller.render.wolf"],
+			"spawn_egg": {
+					"texture": "azsimuth_ryuko_bike_spawn_egg"
+			}
+		}
+	}
+}

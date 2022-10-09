@@ -1,0 +1,53 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "azsimuth:craft_engine"
+      },
+      "groups": [
+        "azsimuth"
+      ],
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "012",
+        "345",
+        "678"
+      ],
+      "key": {
+        "0": {
+          "item": "azsimuth:screw"
+        },
+        "1": {
+          "item": "minecraft:slime"
+        },
+        "2": {
+          "item": "azsimuth:screw"
+        },
+        "3": {
+          "item": "minecraft:observer"
+        },
+        "4": {
+          "item": "minecraft:sticky_piston"
+        },
+        "5": {
+          "item": "minecraft:observer"
+        },
+        "6": {
+          "item": "azsimuth:screw"
+        },
+        "7": {
+          "item": "minecraft:slime"
+        },
+        "8": {
+          "item": "azsimuth:screw"
+        }
+      },
+      "result": {
+        "item": "azsimuth:engine",
+        "data": 0,
+        "count": 1
+      }
+    }
+  }
