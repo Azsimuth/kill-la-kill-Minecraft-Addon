@@ -5,14 +5,14 @@ I am willing to take it down upon the request.
 Please don't hurt me, i'm just a teen with no money, with a passion for doing things.
 
 # Download & Installation
-1. Download the latest release from https://github.com/Azsimuth/kill-la-kill-Minecraft-Addon/releases \
-2. Change the .zip extension to .mcaddon \
-3. Double click, to open with Minecraft Bedrock \
-4. Chose the world you want to play in, and click the edit icon \
-5. click on behaviour packs, and activate the addon. \
-6. Click on Game \
-7. Scroll down to Experiments \
-8. Enable Holiday Creator Features \
+1. Download the latest release from https://github.com/Azsimuth/kill-la-kill-Minecraft-Addon/releases 
+2. Change the .zip extension to .mcaddon 
+3. Double click, to open with Minecraft Bedrock 
+4. Chose the world you want to play in, and click the edit icon 
+5. click on behaviour packs, and activate the addon. 
+6. Click on Game 
+7. Scroll down to Experiments 
+8. Enable Holiday Creator Features 
 9. Profit.
 
 # Ryuko Matoi for Minecraft Bedrock
@@ -21,6 +21,8 @@ I was just bored in the summer, and thought i'd make this for funsies
 it's my first minecraft addon really, aside from a few experiments
 i'm glad it got this far, cause i really didn't expect it to work at all
 This will be awkward to explaion to my IRL friends though
+
+![My Image](ryuko_png.png)
 
 2022 July 4th:	
 Things are going well.
